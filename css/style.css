@@ -1,0 +1,196 @@
+*{padding: 0px;
+margin: 0px;
+box-sizing: border-box;}
+
+@font-face{font-family: abc;
+src:url(Letters_for_Learners.ttf);}
+body{font-family: abc!important;}
+
+.bgimg{ background-image: url('../images/bg.jpg');
+background-size: 100% 100%;
+background-attachment: fixed;
+width: 100%;
+height: 650px; 
+}
+.navbar-brand{ font-size: 22px !important; }
+
+.hearderset{padding:300px;
+box-sizing: border-box; }
+.hearderset h2{
+	text-shadow: 2px 2px  #FFC107;
+	font-size: 42px;
+	
+}
+.hearderset h1{
+	font-size: 82px;
+	font-weight: bold;
+	text-shadow: -1px 0 #FFC107, 0 1px #FFC107, 1px 0 #FFC107, 0 -1px #FFC107;
+	
+}
+/*Our Services*/
+.ourservices h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.ourservices{padding: 100px 0px 60px;
+height: 600px;}
+
+.rowsetting{
+	margin: 40px 0px !important;
+}
+.imgsetting{
+	border-radius: 50px;
+	width: 100px;
+	height: 100px;
+}
+.fa-shopping-cart{
+	margin-top: 20px;
+}
+.fa-star{ 
+margin-top: 24px; 
+ }
+ .fa-desktop{
+ 	margin-top: 24px;
+ }
+
+ .rowsetting p{
+ 	padding: 10px;
+ 	color: #909090 !important;
+ }
+ .rowsetting h2{
+ 	margin-top: 20px;
+ 	font-weight: bold;
+ 	font-size: 30px;
+ }
+
+.text-white{ font-weight: bold; }
+
+.portfilio{
+	width: 100%;
+	
+	padding: 100px 0px 50px;
+}
+.portfilio h1{
+	font-size: 50px;
+font-weight: bold;
+}
+.card{ margin-top: 40px; }
+
+/*Our Team*/
+.ourteam{
+height: 750px;
+padding: 100px 0px 50px;	
+}
+.ourteam h1{
+	font-size: 50px;
+font-weight: bold;
+}
+.teamsetting{
+	margin-top: 70px;
+}
+
+
+/*...............footer............*/
+
+.footer{height: 50px;}
+.footer h6{line-height: 40px;}
+
+
+/*----------------media query-----------------*/
+
+@media(min-width: 992px){
+
+}
+@media(min-width: 768px) and (max-width: 991px){
+
+}
+@media(min-width: 575px)and(max-width: 767px){
+
+}
+@media(min-width: 480px)and(max-width: 574px){
+
+}
+@media(max-width: 479px){
+	.hearderset h2{
+	font-size: 22px;
+}
+.hearderset h1{
+	font-size: 42px;
+	font-weight: bold;
+}
+
+ourservices h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.ourservices{
+height: 1400px;}
+.portfilio{
+	
+	height: 3700px;
+	
+}
+.ourteam{
+	height: 1700px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
