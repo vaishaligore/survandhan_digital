@@ -16,7 +16,19 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<<style>
+	{#contact_us{
+	padding-top: 50px;
+padding-bottom: 50px;}
 
+.footer{
+	padding-top: 50px !important;
+}
+
+
+	
+	
+</style>
 
 </head>
 <body>
@@ -34,7 +46,7 @@
 					<a href="#ourservices" class="nav-link text-white">SERVICES</a>
 				</li>
 				<li class="nv-item" >
-					<a href="#portfolio" class="nav-link text-white">PORTFILIO</a>
+					<a href="#portfilio" class="nav-link text-white">PORTFILIO</a>
 				</li>
 				<li class="nav-item" >
 					<a href="#about" class="nav-link text-white">ABOUT US</a>
@@ -182,14 +194,14 @@
 </section><!--end portfolio-->
 
 <!--///////////////////start our team-->
-<section class="ourteam" id="ourteam" id="about">
+<section class="ourteam" id="ourteam" >
 	<div class="container text-center">
 	<h1>OUR AMAZING TEAM</h1>
-	<p>In publishing and graphic design</p>
+	<p>Team</p>
 	<div class="row teamsetting">
 		<div class="col-lg-4 col-md-4 col-sm-4 col-12 d-block m-auto">
 			<figure class="figure">
-				<img src="images/photo-1.jpg" class="figure-img img-fluid rounded-circle">
+				<img src="images/lady-dummy.png" class="figure-img img-fluid rounded-circle" height="250px" width="250px;">
 					<figcaption>
 						<h4>Vaishali Jadhav</h4>
 						<p class="figcaption">Web Developer</p>
@@ -199,7 +211,7 @@
 		</div>
 		<div class="col-lg-4 col-md-4 col-sm-4 col-12 d-block m-auto">
 			<figure class="figure">
-				<img src="images/photo-1.jpg" class="figure-img img-fluid rounded-circle">
+				<img src="images/team2.jpg" class="figure-img img-fluid rounded-circle" height="250px" width="250px;">
 					<figcaption>
 						<h4>Vaishali Jadhav</h4>
 						<p class="figcaption">Web Developer</p>
@@ -209,10 +221,10 @@
 		</div>
 		<div class="col-lg-4 col-md-4 col-sm-4 col-12 d-block m-auto">
 			<figure class="figure">
-				<img src="images/photo-1.jpg" class="figure-img img-fluid rounded-circle" height="250px" width="250px;" >
+				<img src="images/team_sales.jpg" class="figure-img img-fluid rounded-circle" height="250px" width="250px;" >
 					<figcaption>
-						<h4>Vaishali Jadhav</h4>
-						<p class="figcaption">Web Developer</p>
+						<h4>Sunil Gore</h4>
+						<p class="figcaption">Sales Manager</p>
 					</figcaption>
 			</figure>
 
@@ -221,6 +233,124 @@
 	</div>
 	</div>
 
+</section>
+
+<!--/////////////////////our contact\\\\\\\\\\\\\\\\\\\\\-->
+
+<section>
+	<div class="contact" id="contact_us">
+			<div class="container text-center">
+				<div class="animated bounce">
+      <div class="container-fluid register-container">
+        <h1>Course Registration</h1>
+
+        <div id="signup-form">
+          <form>
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label>First Name:</label>
+                  <input
+                    type="text"
+                    class="form-control focus"
+                    placeholder="Jane"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label>Last Name:</label>
+                  <input
+                    type="text"
+                    class="form-control focus"
+                    placeholder="Doe"
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+            	<div class="col">
+		            <div class="form-group">
+		              <label>Email:</label>
+		              <input
+		                type="email"
+		                class="form-control focus"
+		                placeholder="abc@gmail.com"
+		                required
+		              />
+		            </div>
+				</div>
+			<div class="col">
+                <div class="form-group">
+                  <label>Message:</label>
+                  <input
+                    type="text" class="form-control focus" placeholder="Write Query or message" required
+                  />
+                </div>
+              </div>
+ 
+</div>
+
+        
+            <!--<div class="form-group focus">
+              <label>Password:</label>
+              <input
+                type="password"
+                class="form-control focus"
+                placeholder="*********"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label>Gender:</label>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio1"
+                  value="option1"
+                  required
+                />
+                <label class="form-check-label" for="inlineRadio1">Male</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio2"
+                  value="option2"
+                  required
+                />
+                <label class="form-check-label" for="inlineRadio2"
+                  >Female</label
+                >
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio3"
+                  value="option3"
+                  required
+                />
+                <label class="form-check-label" for="inlineRadio3"
+                  >Other</label>
+              </div>
+            </div>-->
+            <button type="submit" id='submit-btn' class="btn btn-warning">Submit</button>
+          </form>
+        </div>
+      </div>
+    
+			</div>
+		
+	</div>
 </section>
 
 
